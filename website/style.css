@@ -3,6 +3,7 @@
     font-family: poppins;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
 body{
@@ -135,16 +136,40 @@ div.appointment button:hover{
         --_p: 0%;
       }
 
+.homepage{
+    max-width: 100%;
+}
+.box_home{    
+    font-weight: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: #AFEEEE;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    max-width: 550px;
+    border-radius: 10px;
+    
+}
+.box_home h2{
+    text-align: center;
+}
+.box_home p{
+    text-align: center;
+    font-size: 12px;
+}
 
 
 .banner{
-    position: relative;
+    position: fixed;
 }
+
 
 .home_chat_side{
     position: absolute;
     right: 0;
-    bottom: 10%;
+    bottom: 25%;
     display: flex;
     gap: 50px;
 }
@@ -154,6 +179,7 @@ div.appointment button:hover{
     background-color: #3dc6fc;
     padding: 5px 15px;
     border-radius: 5px;
+    position:initial;
 }
 
 .to_home a {
